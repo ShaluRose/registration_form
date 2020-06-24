@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* Root is for creating and storing variables */
+/* :root{
+
+} */
+
+body{
+    background-image: linear-gradient(to bottom right, #827397, #363062);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: #dae1e7;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    width: 400px;
+}
+h2{
+    text-align: center;
+    margin: 0 0 50px;
+    color: #424874;
+}
+.form{
+    padding: 30px 40px;
+}
+.form-control{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.form-control label{
+    color: #424874;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control input{
+    display: block;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input{
+    border-color: green;
+}
+
+.form-control.error input{
+    border-color: #d92027;
+    
+    
+}
+
+.form-control small{
+    visibility: hidden;
+    color: #d92027;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+
+.form button{
+    cursor: pointer;
+    background-color: #424874;
+    border: 2px solid;
+    border-color: #424874;
+    border-radius: 25px;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    display: block;
+    font-size: 16px;
+}
+
