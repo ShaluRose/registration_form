@@ -32,5 +32,5 @@ To run the project, simply select the .html file, and open it with any Web Brows
 * The confirm password does not match the password
 
 ## Author
-Shalini Tirkey
+**Shalini Tirkey**
 
