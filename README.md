@@ -11,4 +11,6 @@ To locally run the project in your Desktop-
 ### Deployment
 To run the project, simply select the .html file, and open it with any Web Browser, preferably Chrome.
 
-### Working
+## Working
+1. Registration form
+![Registration form](images/working.png)
